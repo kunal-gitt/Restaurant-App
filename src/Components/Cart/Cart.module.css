@@ -1,7 +1,9 @@
 .cart-items {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+  max-height: 20rem;
+  overflow: scroll;
 }
 
 .total {
@@ -10,7 +12,7 @@
   align-items: center;
   font-weight: bold;
   font-size: 1.5rem;
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 .actions {
